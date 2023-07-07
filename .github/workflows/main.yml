@@ -1,0 +1,17 @@
+on: [push]
+
+jobs:
+  gist-sync:
+    name: gist-sync
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - uses: popsiclestick/gist-sync-action@v1.2.0
+        id: sync
+        with:
+          auth: ${{ secrets.GIST_TOKEN }}
+          gist_url: https://gist.github.com/vhperaltaj/5c9396a29a01bc4bc1b7239aa297b0ee
+          gist_title: Práctica-1 Blink LED 4550-MikroC.c
+          gist_description: Practicas MikroC PRO for PIC
+          github_file: Proyecto/4550/blink_led.c
