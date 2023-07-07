@@ -5,7 +5,7 @@ Microside Technology Inc.
 File Name:
 blink_led.mcppi
 
-Product Revision  :  3
+Product Revision  :  1
 Device            :  X-TRAINER
 Driver Version    :  1.0
 ********************************************************************************/
@@ -20,7 +20,7 @@ Para usar el código con bootloader, configurar como lo indica MICROSIDE:
 #define LED LATA4_bit           //Se crea una definición donde se almacena el registro del pin
                                 //Tome en cuenta que en versiones anteriores se hacia uso del pin A1
 
-void main() org 0x2000          //Se especifica el segmento a partir de cual se almacenara el programa ya que existe un espacio
+void main() org 0x2000          //Se especifica el segmento a partir de cual se almacenara el programa (después del bootloader)
 {
      LATA4_bit = 0;             //Se asigna el pin como salida
      TRISA4_bit = 0;            //Se establece el pin en un estado bajo
