@@ -5,7 +5,7 @@ Microside Technology Inc.
 File Name:
 blink_led.mcppi
 
-Product Revision  :  1
+Product Revision  :  3
 Device            :  X-TRAINER
 Driver Version    :  1.0
 ********************************************************************************/
