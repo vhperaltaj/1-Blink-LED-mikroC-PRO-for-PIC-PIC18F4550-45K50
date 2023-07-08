@@ -26,7 +26,6 @@ void main() org 0x2000          //Se especifica el segmento a partir de cual se 
      LATA4_bit = 0;             //Se asigna el pin como salida
      TRISA4_bit = 0;            //Se establece el pin en un estado bajo
      ANSELA = 0;                //Se configura el pin como salida digital
-     TRISA4_bit = 1;
 
      while(1)
      {
