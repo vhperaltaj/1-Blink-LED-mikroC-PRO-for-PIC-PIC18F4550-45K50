@@ -24,6 +24,7 @@ void main() org 0x2000          //Se especifica el segmento a partir de cual se 
 {
      LATA4_bit = 0;             //Se asigna el pin como salida
      TRISA4_bit = 0;            //Se establece el pin en un estado bajo
+                                //El bootloader habilita las entradas como digitales
 
      while(1)
      {
