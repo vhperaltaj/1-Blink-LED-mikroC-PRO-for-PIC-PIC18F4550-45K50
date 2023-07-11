@@ -8,7 +8,7 @@ jobs:
     #PIC18F4550 Publish Gist
       - name: Checkout
         uses: actions/checkout@v2
-      - uses: popsiclestick/gist-sync-action@v1.2.0
+      - uses: vhperaltaj/gist-sync-action@v0.9.0
         id: sync_4550
         with:
           auth: ${{ secrets.GIST_TOKEN }}
