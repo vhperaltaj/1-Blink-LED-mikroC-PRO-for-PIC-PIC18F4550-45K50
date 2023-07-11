@@ -19,7 +19,7 @@ jobs:
           
       - name: Checkout-K
         uses: actions/checkout@v2
-      - uses: popsiclestick/gist-sync-action@v1.2.0
+      - uses: vhperaltaj/gist-sync-action@v0.9.0
         id: sync_45K50
         with:
           auth: ${{ secrets.GIST_TOKEN }}
