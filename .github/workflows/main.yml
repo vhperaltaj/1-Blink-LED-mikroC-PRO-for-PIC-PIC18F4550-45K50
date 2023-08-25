@@ -26,5 +26,5 @@ jobs:
           gist_url: https://gist.github.com/vhperaltaj/ff6459e9d9d084d4ac4fadfded2c2ed3
           gist_title: Práctica-1 Blink LED 45K50-MikroC.c
           gist_description: Practicas MikroC PRO for PIC
-          github_file: Proyecto/45K50/blink_led.c
+          github_file: Proyecto/45K50/blink led.c
       
