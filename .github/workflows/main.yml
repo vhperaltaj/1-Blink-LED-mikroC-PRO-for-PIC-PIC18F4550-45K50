@@ -8,7 +8,7 @@ jobs:
     #PIC18F4550
       - name: Checkout
         uses: actions/checkout@v2
-      - uses: vhperaltaj/gist-sync-action@v0.9.9
+      - uses: vhperaltaj/gist-sync-action@v1.0.0
         id: sync_4550
         with:
           auth: ${{ secrets.GIST_TOKEN }}
@@ -16,10 +16,11 @@ jobs:
           gist_title: Práctica-1 Blink LED 4550-MikroC.c
           gist_description: Practicas MikroC PRO for PIC
           github_file: Proyecto/4550/blink_led.c
+          file_encoding: WINDOWS-1252
           
       - name: Checkout-K
         uses: actions/checkout@v2
-      - uses: vhperaltaj/gist-sync-action@v0.9.9
+      - uses: vhperaltaj/gist-sync-action@v1.0.0
         id: sync_45K50
         with:
           auth: ${{ secrets.GIST_TOKEN }}
@@ -27,4 +28,5 @@ jobs:
           gist_title: Práctica-1 Blink LED 45K50-MikroC.c
           gist_description: Practicas MikroC PRO for PIC
           github_file: Proyecto/45K50/blink led.c
+          file_encoding: WINDOWS-1252
       
