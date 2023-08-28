@@ -14,6 +14,7 @@ Driver Version    :  1.0
 Para usar el código con bootloader, configurar como lo indica MICROSIDE:
 1) Tools> Options> Output> Output Settings> Marcar "Long HEX format"
 2) Project> Edit Project> Insertar 48.000000 en "MCU Clock Frequency [MHz]" box
+Muy añadido
 ********************************************************************************/
 
 #pragma orgall 0x1FFF           //Espacio reservado para bootloader
